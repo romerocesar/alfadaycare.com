@@ -23,7 +23,7 @@ twitter_username: romerocesar
 github_username:  romerocesar
 
 # Build settings
-theme: minima
+theme: jekyll-agency
 plugins:
   - jekyll-feed
 
