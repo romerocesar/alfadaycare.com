@@ -6,25 +6,24 @@ header:
 
 services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "Full and part time chidl care services in north seattle"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Play based learning"
+        desc: "I believe in play based learning. I have a dedicated room in my house with developmentally appropriate toys for each age."
+        icon: fas fa-robot #find more at https://fontawesome.com/icons
+      - title: "Focus on happiness"
+        desc: "I focus on safety, happiness, independence and emotional regulation among with learning of discipline."
+        icon: fas fa-smile-beam
+      - title: "Love the outdoors."
+        desc: "I love the outdoors and I believe is very important for the children to spend time outside. That's why I have a back yard with outdoor toys for kids to play and have fun."
+        icon: fas fa-tree
 
 portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Gallery"
+    text: "Take a sneak peek at our space."
     section: portfolio
-    closebutton: "Close Project"
-
+    closebutton: "Close"
 
 timeline:
     title: "About"
@@ -33,24 +32,24 @@ timeline:
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Greece"
+        year: "1985"
+        desc: "I was born and raised in Greece"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Tutoring and playing"
+        year: "2005-2010"
+        desc: "Since I was in high school, I remember children came over to my house to play  with me."
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+      - title: "Moved to the US"
+        year: "2010"
+        desc: "After I finished university there and worked as an archaeologist for a short time, I moved to the US. I decided to make my hobby, a profession. So, I started working as a nanny and substitute teacher and I got a certificate in early childhood education from University of Washington."
         image: assets/img/timeline/3.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
+      - title: "My girls are born"
+        year: "2017"
+        desc: "The years passed and I was blessed with my twin girls who are now 3 years old."
         image: assets/img/timeline/4.jpg
         alt:
         # you can enforce the aligment
