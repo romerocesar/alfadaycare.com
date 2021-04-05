@@ -1,12 +1,12 @@
 header:
     title: Welcome to Alfa daycare
-    text: It's Nice To Meet You
+    text: Nice To Meet You
     button: Tell Me More
     buttonlink: "#services"
 
 services:
     title: "Services"
-    text: "Full and part time chidl care services in north seattle"
+    text: "Full and part time child care services in north seattle"
     section: services
     list:
       - title: "Play based learning"
@@ -22,30 +22,28 @@ services:
 portfolio:
     title: "Gallery"
     text: "Take a sneak peek at our space."
-    section: portfolio
+    section: gallery
     closebutton: "Close"
 
 timeline:
     title: "About"
-    text: "Lorem ipsum timeline"
+    text: "my journey"
     section: timeline
-    # left is the default
-    #start_align: "left"
     events:
       - title: "Greece"
         year: "1985"
         desc: "I was born and raised in Greece"
-        image: assets/img/timeline/1.jpg
+        image: assets/img/timeline/gr-200.jpg
         alt:
       - title: "Tutoring and playing"
         year: "2005-2010"
         desc: "Since I was in high school, I remember children came over to my house to play  with me."
         image: assets/img/timeline/2.jpg
-        alt:
+        align: "right"
       - title: "Moved to the US"
         year: "2010"
         desc: "After I finished university there and worked as an archaeologist for a short time, I moved to the US. I decided to make my hobby, a profession. So, I started working as a nanny and substitute teacher and I got a certificate in early childhood education from University of Washington."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/timeline/us-flag.jpg
         alt: image alt text
       - title: "My girls are born"
         year: "2017"
@@ -80,34 +78,14 @@ clients:
         logo: assets/img/clients/creative-market.jpg
 
 team:
-    title: "OUR AMAZING TEAM"
+    title: "PEOPLE"
     text: "Lorem ipsum dolor sit amet consectetur."
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "Ioanna Makri"
+        role: "Owner"
         image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -118,7 +96,7 @@ team:
 
 contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Ask me anything"
     section: contact
 
 footer:
