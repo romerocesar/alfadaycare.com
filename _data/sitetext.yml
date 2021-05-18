@@ -4,10 +4,10 @@ header:
     button: Tell Me More
     buttonlink: "#services"
 
-services:
-    title: "Services"
-    text: "Full and part time child care services in north seattle"
-    section: services
+values:
+    title: "Values"
+    text: "My approach to child care."
+    section: values
     list:
       - title: "Play based learning"
         desc: "I believe in play based learning. I have a dedicated room in my house with developmentally appropriate toys for each age."
@@ -18,6 +18,21 @@ services:
       - title: "Love the outdoors."
         desc: "I believe is very important for children to spend time outside. That's why I have a back yard with outdoor toys for kids to enjoy our outdoor space as much as I do."
         icon: fas fa-tree
+
+services:
+    title: "Services"
+    text: "Full and part time child care services in north seattle"
+    section: services
+    list:
+      - title: "Full and part time"
+        desc: "I try to accomodate 4-8hr days with flexible drop offs."
+        icon: far fa-clock #find more at https://fontawesome.com/icons
+      - title: "Simple pricing"
+        desc: "$16 per hour including meals and snacks."
+        icon: fas fa-money-bill-wave
+      - title: "Dedicated nap room."
+        desc: "I'm preparing a dedicated nap room with color therapy to help little ones relax."
+        icon: fas fa-bed
 
 portfolio:
     title: "Gallery"
