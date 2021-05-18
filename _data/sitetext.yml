@@ -79,13 +79,13 @@ clients:
 
 team:
     title: "PEOPLE"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    text: ""
+    subtext: ""
     section: team
     people:
       - name: "Ioanna Makri"
         role: "Owner"
-        image: assets/img/team/2.jpg
+        image: assets/img/ioanna-500.jpg
         social:
           - url: https://twitter.com
             icon: fab fa-twitter
@@ -108,8 +108,6 @@ footer:
         icon: "fab fa-facebook-f"
       - url: https://linkedin.com
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
       - url: https://instagram.com
         icon: "fab fa-instagram"
 
