@@ -16,7 +16,7 @@
                 <h2 class="text-uppercase">{{ pic.title }}</h2>
                 <p class="item-intro text-muted">{{ pic.subtitle }}</p>
                 <img class="img-fluid d-block mx-auto" src="{{ pic.image }}" alt="{{ pic.alt }}">
-				<p>{{ pic.content }}</p>
+		<p>{{ pic.caption }}</p>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
                   {{ site.data.sitetext.gallery.closebutton | default: "Close" }}</button>

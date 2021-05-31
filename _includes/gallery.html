@@ -11,16 +11,16 @@
 	{% for pic in site.data.sitetext.gallery.pics %}
       <div class="col-md-4 col-sm-6 portfolio-item">
         <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"></i>
-            </div>
-          </div>
-          <img class="img-fluid" src="{{ pic.caption.thumbnail }}" alt="">
+          <!-- <div class="portfolio-hover"> -->
+          <!--   <div class="portfolio-hover-content"> -->
+          <!--     <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"> -->
+          <!--     </i> -->
+          <!--   </div> -->
+          <!-- </div> -->
+          <img class="img-fluid" src="{{ pic.thumbnail }}" alt="">a
         </a>
         <div class="portfolio-caption">
-          <h4>{{ pic.caption.title }}</h4>
-          <p class="text-muted">{{ pic.caption.subtitle }}</p>
+          <h4>{{ pic.title }}</h4>
         </div>
       </div>
 	{% endfor %}

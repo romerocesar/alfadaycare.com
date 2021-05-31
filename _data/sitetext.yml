@@ -39,14 +39,21 @@ gallery:
     text: "Take a sneak peek at our space."
     section: gallery
     pics:
-      - title: 'pic title'
-        alt: 'pic alt'
-        content: 'pic content'
-        image: assets/img/backyard.jpg
-        caption:
-          title: 'pic capttion title'
-          subtitle: 'pic caption subtitle'
-          thumbnail: assets/img/timeline/gr-200.jpg
+      - title: 'active toys'
+        alt: 'physical activities'
+        thumbnail: assets/img/gallery/active-toys-200.jpg
+        image: assets/img/gallery/active-toys.jpg
+        caption: 'indoor activities like trampoline.'
+      - title: 'arts'
+        alt: 'painting and music'
+        thumbnail: assets/img/gallery/arts-200.jpg
+        image: assets/img/gallery/arts.jpg
+        caption: 'painting and music'
+      - title: 'smaller toys'
+        alt: 'small toys'
+        thumbnail: assets/img/gallery/small-toys-200.jpg
+        image: assets/img/gallery/small-toys.jpg
+        caption: 'Smaller toys for smaller kids.'
 
 timeline:
     title: "About"
