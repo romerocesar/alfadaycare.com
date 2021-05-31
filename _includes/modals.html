@@ -1,0 +1,31 @@
+<!-- gallery Modals -->
+{% for pic in site.data.sitetext.gallery.pics %}
+  <div class="portfolio-modal modal fade" id="p{{ forloop.index }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- pic Details Go Here -->
+                <h2 class="text-uppercase">{{ pic.title }}</h2>
+                <p class="item-intro text-muted">{{ pic.subtitle }}</p>
+                <img class="img-fluid d-block mx-auto" src="{{ pic.image }}" alt="{{ pic.alt }}">
+		<p>{{ pic.caption }}</p>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  {{ site.data.sitetext.gallery.closebutton | default: "Close" }}</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+<!-- End gallery Modals -->
