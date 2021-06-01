@@ -1,4 +1,7 @@
-<!-- gallery grid  -->
+<!-- gallery  -->
+<link type="text/css" rel="stylesheet" href="bower_components/lightslider/dist/css/lightslider.min.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="bower_components/lightslider/dist/js/lightslider.js"></script>
 <section class="bg-light page-section" id="{{ site.data.sitetext.gallery.section | default: "gallery" }}">
   <div class="container">
     <div class="row">
@@ -7,23 +10,14 @@
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.gallery.text | markdownify }}</h3>
       </div>
     </div>
-    <div class="row">
+    <div class="row" id="slider">
+      <ul>
 	{% for pic in site.data.sitetext.gallery.pics %}
-      <div class="col-md-4 col-sm-6 portfolio-item">
-        <a class="portfolio-link" data-toggle="modal" href="#p{{ forloop.index }}">
-          <!-- <div class="portfolio-hover"> -->
-          <!--   <div class="portfolio-hover-content"> -->
-          <!--     <i class="{{ site.data.style.portfolio-icon | default: "fas fa-plus fa-3x" }}"> -->
-          <!--     </i> -->
-          <!--   </div> -->
-          <!-- </div> -->
-          <img class="img-fluid" src="{{ pic.thumbnail }}" alt="">a
-        </a>
-        <div class="portfolio-caption">
-          <h4>{{ pic.title }}</h4>
-        </div>
-      </div>
-	{% endfor %}
+        <li data-thumb="{{ pic.thumbnail }}">
+          <img src="{{ pic.image }}"/>
+        </li>
+      	{% endfor %}
+      </ul>
     </div>
   </div>
 </section>
