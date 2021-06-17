@@ -21,8 +21,13 @@ author: "cesar romero"
 twitter_username: romerocesar
 github_username:  romerocesar
 
+# plugins
+plugins:
+  - jekyll-remote-theme
+
 # Build settings
-theme: jekyll-agency
+# remote_theme: jekyll-agency
+remote_theme: raviriley/agency-jekyll-theme
 layout: home
 
 # Exclude from processing.

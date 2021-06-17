@@ -270,6 +270,7 @@ DEPENDENCIES
   github-pages (~> 215)
   jekyll-agency
   jekyll-feed (~> 0.12)
+  jekyll-remote-theme
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
