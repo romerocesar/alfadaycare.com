@@ -1,14 +1,17 @@
 nav:
-  - title: "Services"
-    section: services
+  - title: "Values"
+    section: values
 
   - title: "Gallery"
     section: gallery
 
-  - title: "About"
+  - title: "Services"
+    section: services
+
+  - title: "Story"
     section: timeline
 
-  - title: "Team"
+  - title: "People"
     section: team
 
   - title: "Contact"
