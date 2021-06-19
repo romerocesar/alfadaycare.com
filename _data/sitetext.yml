@@ -1,8 +1,8 @@
 header:
-    title: Welcome to Alfa daycare
-    text: Nice To Meet You
-    button: Tell Me More
-    buttonlink: "#services"
+    title:
+    text:
+    button:
+    buttonlink:
 
 values:
     title: "Values"
@@ -75,22 +75,22 @@ timeline:
       - title: "Greece"
         year: "1985"
         desc: "I was born and raised in Greece"
-        image: assets/img/timeline/gr-200.jpg
+        image: assets/img/timeline/gr-flag.png
         alt:
       - title: "Studying and mentoring."
         year: "2003"
         desc: "Got my Bachelor in Archeology while I was tutoring greek and piano as well."
-        image: assets/img/timeline/2.jpg
+        image: assets/img/timeline/uni.png
         align: "right"
       - title: "Moved to the US"
         year: "2010-2013"
         desc: "I moved to the US and got my certificate in early childhood education from University of Washington."
-        image: assets/img/timeline/us-flag.jpg
-        alt: image alt text
+        image: assets/img/timeline/us-flag.png
+        alt:
       - title: "My girls were born"
         year: "2017"
         desc: "The years passed and I was blessed with my twin girls who are now 3 years old."
-        image: assets/img/timeline/4.jpg
+        image: assets/img/timeline/girls-300.jpg
         alt:
         # you can enforce the aligment
         align: right
