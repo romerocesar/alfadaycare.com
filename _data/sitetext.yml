@@ -31,7 +31,7 @@ services:
         desc: "Ages 1-3. From 8 to 5 with flexible drop off and pickup."
         icon: far fa-clock #find more at https://fontawesome.com/icons
       - title: "Simple pricing"
-        desc: "$17 per hour including snacks and lunch prepared with organic ingredients."
+        desc: "$15 per hour including snacks and lunch prepared with organic ingredients."
         icon: fas fa-money-bill-wave
       - title: "Dedicated nap room."
         desc: "I'm preparing a dedicated nap room with color therapy to help little ones relax."
