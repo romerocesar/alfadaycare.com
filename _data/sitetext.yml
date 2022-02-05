@@ -28,13 +28,13 @@ services:
     section: services
     list:
       - title: "Flexible ages and times"
-        desc: "Ages 1-3. From 8 to 5 with flexible drop off and pickup."
+        desc: "Ages 1.5-3.5 From 8 to 5 with flexible drop off and pickup."
         icon: far fa-clock #find more at https://fontawesome.com/icons
       - title: "Simple pricing"
         desc: "$15 per hour including snacks and lunch prepared with organic ingredients."
         icon: fas fa-money-bill-wave
       - title: "Dedicated nap room."
-        desc: "I'm preparing a dedicated nap room with color therapy to help little ones relax."
+        desc: "A dedicated nap room with color therapy to help little ones relax."
         icon: fas fa-bed
       - title: "Music"
         desc: "I play the piano so I include music time in the program and I encourage the little ones to pick an instrument and sing along with me."
