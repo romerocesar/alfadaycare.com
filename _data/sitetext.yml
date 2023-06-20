@@ -28,10 +28,10 @@ services:
     section: services
     list:
       - title: "Flexible ages and times"
-        desc: "Ages 1.5-3.5 From 8 to 5 with flexible drop off and pickup."
+        desc: "Ages 1.5-3.5 From 7:00 to 5:00 with flexible drop off and pickup."
         icon: far fa-clock #find more at https://fontawesome.com/icons
       - title: "Simple pricing"
-        desc: "$15 per hour including snacks and lunch prepared with organic ingredients."
+        desc: "$15/hr for more than 30hrs a week or $18/hr otherwise. lunch and snacks included."
         icon: fas fa-money-bill-wave
       - title: "Dedicated nap room."
         desc: "A dedicated nap room with color therapy to help little ones relax."
