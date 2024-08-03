@@ -10,7 +10,7 @@ values:
     section: values
     list:
       - title: "Play based learning"
-        desc: "Play based learning with Montessori influence. Every moment in a child's life is a learning opportunity."
+        desc: "I follow the Reggio Emilia approach which supports children's development by providing open-ended materials and toys that help children learn while they have fun exploring."
         icon: fas fa-robot #find more at https://fontawesome.com/icons
       - title: "Focus on happiness"
         desc: "I focus on safety, happiness, independence and emotional regulation among with learning of discipline."
@@ -31,7 +31,7 @@ services:
         desc: "Ages 1.5-3.5 From 7:00 to 5:00 with flexible drop off and pickup."
         icon: far fa-clock #find more at https://fontawesome.com/icons
       - title: "Simple pricing"
-        desc: "$15/hr for more than 30hrs a week or $18/hr otherwise. lunch and snacks included."
+        desc: "full time: $2500/mo; part time: $1950/mo. infant care: $2800/mo. lunch and snacks included."
         icon: fas fa-money-bill-wave
       - title: "Dedicated nap room."
         desc: "A dedicated nap room with color therapy to help little ones relax."
@@ -45,6 +45,9 @@ services:
       - title: "Learning and sharing"
         desc: "I help little ones learn to understand and control emotions, respect each other, take turns, use the potty."
         icon: fas fa-smile-beam
+      - title: "Meals and snacks"
+        desc: "Lunch and two snacks provided daily following the mediterranean diet and guidelines from myplate.org."
+        icon: fas fa-carrot
 
 gallery:
     title: "Gallery"
