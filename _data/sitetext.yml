@@ -10,17 +10,30 @@ values:
     section: values
     list:
       - title: "Play based learning"
-        desc: "I follow the Reggio Emilia approach which supports children's development by providing open-ended materials and toys that help children learn while they have fun exploring."
+        desc: |
+          I follow the Reggio Emilia approach which supports
+          children's development by providing open-ended materials and
+          toys that help children learn while they have fun
+          exploring. I include music time in the schedule where I play
+          the piano and invite the children to get musical instruments
+          and sing along with me. I value happiness, equity, empathy,
+          emotional regulation and love so I help children learn those
+          values while they interact with their peers.
         icon: fas fa-robot #find more at https://fontawesome.com/icons
+      - title: "Love the outdoors."
+        desc: |
+          We spend at least two hours per day, morning and afternoon,
+          outside of the house. The yard is equipped with climbing
+          structures, swings, slides, push cars, bikes, balls, a play
+          house with a play kitchen, where children can develop their
+          motor skills and engage in dramatic play.
+        icon: fas fa-tree
       - title: "Focus on happiness"
         desc: "I focus on safety, happiness, independence and emotional regulation among with learning of discipline."
         icon: fas fa-smile-beam
       - title: "Love for kids"
         desc: "I treat the children like my own because I believe every child needs to be loved, accepted and welcomed with their unique personality."
         icon: fas fa-heart
-      - title: "Love the outdoors."
-        desc: "Daily walks and a big back yard equipped with toys that promote physical development and gross motor skills."
-        icon: fas fa-tree
 
 services:
     title: "Services"
@@ -28,7 +41,7 @@ services:
     section: services
     list:
       - title: "Flexible ages and times"
-        desc: "Ages 1.5-3.5 From 7:00 to 5:00 with flexible drop off and pickup."
+        desc: "8 months to three years. 7am-5pm with flexible drop off and pick up times."
         icon: far fa-clock #find more at https://fontawesome.com/icons
       - title: "Simple pricing"
         desc: "full time: $2500/mo; part time: $1950/mo. infant care: $2800/mo. lunch and snacks included."
@@ -36,15 +49,9 @@ services:
       - title: "Dedicated nap room."
         desc: "A dedicated nap room with color therapy to help little ones relax."
         icon: fas fa-bed
-      - title: "Music"
-        desc: "I play the piano so I include music time in the program and I encourage the little ones to pick an instrument and sing along with me."
-        icon: fas fa-music
       - title: "Non-toxic cleaning products"
         desc: "All toys are clean and sanitized with non-toxic products."
         icon: fas fa-leaf
-      - title: "Learning and sharing"
-        desc: "I help little ones learn to understand and control emotions, respect each other, take turns, use the potty."
-        icon: fas fa-smile-beam
       - title: "Meals and snacks"
         desc: "Lunch and two snacks provided daily following the mediterranean diet and guidelines from myplate.org."
         icon: fas fa-carrot
