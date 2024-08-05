@@ -93,17 +93,30 @@ timeline:
         image: assets/img/timeline/uni.png
         align: "right"
       - title: "Moved to the US"
-        year: "2010-2013"
-        desc: "I moved to the US and got my certificate in early childhood education from University of Washington."
+        year: "2010"
+        desc: "I moved to the US."
         image: assets/img/timeline/us-flag.png
         alt:
+      - title: "University of Washington"
+        year: "2013"
+        desc: "Certificate in early childhood leadership."
+        image: assets/img/timeline/uw-512.png
+        alt: "university of washington"
       - title: "My girls were born"
         year: "2017"
-        desc: "The years passed and I was blessed with my twin girls who are now 3 years old."
+        desc: "The years passed and I was blessed with my twin girls who are now in elementary school."
         image: assets/img/timeline/girls-300.jpg
         alt:
-        # you can enforce the aligment
-        align: right
+      - title: "Edmonds College"
+        year: "2023"
+        desc: "Certified Preschool Teacher"
+        image: assets/img/timeline/edmonds-300.jpeg
+        alt:
+      - title: "Kindergarten teacher"
+        year: "2024"
+        desc: "Certified kindergarten teacher."
+        image: assets/img/timeline/k-cap.png
+        alt:
     end: "Be Part <br> of Our <br> Story!"
 
 about:
